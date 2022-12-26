@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import logo from './FindIn.png';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div className="App">  
+        <img src={logo} className="App-logo"  alt="logo" />
+
+          
+            
+           <p> FindIn UN site de soutien scolaire,</p>
+           <p> ou vous pouvez déposer vos annonces ,</p>
+           <p>chercher l’annonce que vous plait ou le prof</p>
+           <p> qui peut vous aider , juste une clique...  </p>
+          
+
     </div>
   );
 }
